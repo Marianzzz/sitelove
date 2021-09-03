@@ -1,0 +1,37 @@
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lol{
+    width: 500px;
+}
+body,html{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    background-color:#333 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back ul{
+    display: flex;
+    position: absolute;
+    
+    bottom: 0;
+    
+}
+.back li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+   
+    
+    font-size: 599%;
+    
+    
+    transition: background .2s ease;
+}

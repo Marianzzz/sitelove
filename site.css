@@ -1,0 +1,27 @@
+body{
+    font-family:'Raleway',sans-serif;
+    background: url(Текст.png) no-repeat ;
+   background-size:  50%;
+   
+   padding: 100px 0;
+}
+.back ul{
+    display: flex;
+    position: absolute;
+    
+    bottom: 0;
+    
+}
+.back li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+   
+    
+    font-size: 599%;
+    
+    
+    transition: background .2s ease;
+}

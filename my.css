@@ -1,0 +1,30 @@
+body{
+    font-family:'Raleway',sans-serif;
+    background: url(photo_2021-09-01_21-45-17.jpg) no-repeat ;
+    padding: 100px 0;
+    background-size: 100% auto;
+}
+h1{
+    color: blanchedalmond;
+}
+.back ul{
+    display: flex;
+    position: absolute;
+    
+    bottom: 0;
+    
+}
+.back li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+    font-weight: bold;
+   
+    
+    font-size: 599%;
+    
+    
+    transition: background .2s ease;
+}
+
